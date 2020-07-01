@@ -58,6 +58,7 @@
 												<c:forEach items="${modalidades}" var="x">
 													<tr>
 														<td>${x.idReparto}</td>
+														<td>${x.codrepartidor}</td>
 														<td>${x.direccion}</td>
 														<td>${x.nombreTienda}</td>
 														<td>${x.precioMaxima}</td>

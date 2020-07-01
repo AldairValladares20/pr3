@@ -35,7 +35,7 @@ public class RepartoCrudController {
 		return "crudReparto";
 	}
 	
-	@RequestMapping("/eliminaCrudModalidad")
+	@RequestMapping("/eliminaCrudReparto")
 	public String elimina(int id, Model m) {
 		servicio.eliminaReparto(id);
 		List<Reparto> lista =  servicio.listaReparto();
